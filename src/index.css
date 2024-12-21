@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply p-1 px-2 border-2 border-solid border-pink-500 font-[Quicksand] text-lg font-medium uppercase hover:bg-white hover:text-black tracking-widest transition-colors duration-300 text-black;
+  }
